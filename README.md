@@ -7,5 +7,6 @@
 
 ## How to run the application:
 1. Clone the repository
-2. In Terminal open src/
-3. npm start App.js
+2. Open new folder and choose figmatic-App
+3. open App.js and run terminal
+4. give the command -> npm start
