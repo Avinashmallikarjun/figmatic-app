@@ -1,0 +1,193 @@
+.App {
+    width: 100vh;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: rgb(28, 27, 29);
+    color: white;
+}
+
+.logo {
+    margin-left: 50px;
+    display: flex;
+}
+
+.sidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+
+}
+
+.sidebarList .row {
+    width: 100;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title {
+    flex: 70%;
+}
+
+.sidebarList .row:hover {
+    background-color: rgb(54, 105, 107);
+    cursor: pointer;
+}
+
+.photo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.nav {
+    background-color: rgb(246, 240, 240);
+    border-color: black;
+    border-style: none;
+    border-width: 1px;
+    width: 160vh;
+    height: 60px;
+    color: rgb(16, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-left: 300px;
+    margin-top: -745px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+}
+
+.title {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.btn {
+    background-color: aqua;
+    width: 150px;
+    height: 40px;
+    top: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(246, 241, 235);
+}
+
+.nav2 {
+    margin-left: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav3 ul {
+    display: flex;
+    margin-left: 25px;
+    gap: 2rem;
+    text-align: center;
+    list-style: none;
+}
+
+.nav3 ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav3 ul li a:hover{
+    background-color: rgb(57, 64, 91);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    
+}
+
+.dropdown .searchbar {
+    padding: 8px 25px;
+    background: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    position: absolute;
+}
+
+.searchbar {
+    display: flex;
+    margin-left: 600px;
+    width: 100px;
+}
+
+.searchbar:hover {
+    background-color: rgb(179, 202, 244);
+}
+.container{
+    margin-left: 300px  ; 
+    width:140%;
+   display: flex;
+}
+.box{
+    
+    width: 50%;
+    height: 300px;
+    background-color:rgb(238, 243, 244) ;
+    margin: 20px;
+    text-align:center;
+    color:rgb(16, 15, 15);
+    padding: 10px;
+    padding-top:10px;
+    border: 1px;
+    border-style: solid;
+} 
+.img{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+   
+}.box:hover{
+    transition: 0.5s;
+    background-color:rgb(240, 231, 231);
+    color: rgb(1, 37, 1);
+}
+.box img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px white;
+}
+.box .button{
+    border-radius: 10px;
+}
